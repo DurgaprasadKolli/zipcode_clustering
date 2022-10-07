@@ -21,22 +21,6 @@ from flask_cors import CORS, cross_origin
 
 from routes.Trip_verification_route import tvr_bp
 
-
-
-# host = "172.31.9.16"
-# port = 27017
-
-# user_name = "userWhizzard1"
-# pass_word = "whiz1234"
-# database = 'whizzard'
-
-# Connect to MongoDB
-# client = MongoClient()
-# db = client['wizzard']
-# client = MongoClient(f'mongodb://{user_name}:{pass_word}@{host}:{port}/{database}')
-# client=MongoClient("localhost",27017)
-# db = client['whizzard']
-
 collection_zipCodeClustering=mongoDB['zipCodeClustering']
 collection_user=mongoDB['user']
 
